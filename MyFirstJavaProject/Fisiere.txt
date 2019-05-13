@@ -1,0 +1,42 @@
+Example Files
+
+
+Example listings.txt file:
+
+110001 commercial 500000.00 101
+110223 residential 100000.00 101
+110020 commercial 1000000.00 107
+110333 land 30000.00 105
+110442 farm 200000.00 106
+110421 land 40000.00 107
+112352 residential 250000.00 110
+
+
+
+Example agentreport.txt file:
+
+COMMERICAL
+FARM
+LAND
+RESIDENTIAL
+
+101   600000.00
+105   30000.00
+106   200000.00
+107   1040000.00
+110   250000.00
+
+
+
+Example overview.txt file:
+
+Total properties listed: 7
+Total value of properties listed: 2120000.00
+
+110001
+110020
+110223
+110333
+110421
+110442
+112352

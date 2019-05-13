@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+C:\Users\facebook\Desktop\eclipse-workspace\MyFirstJavaProject\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3251383595.index
+\sdaServletApp\src\main\resources
+C:\Users\facebook\Desktop\eclipse-workspace\MyFirstJavaProject\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1735120480.index
+\firstWebApplication\src\main\resources
+C:\Users\facebook\Desktop\eclipse-workspace\MyFirstJavaProject\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2813934463.index
+\sdaServletApp\src\main\resources

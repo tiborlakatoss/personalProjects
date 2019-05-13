@@ -1,0 +1,35 @@
+package authorAndBook;
+
+import javax.print.attribute.standard.JobHoldUntil;
+
+public class Main {
+Book Da;
+Book Energie;
+Book Politica;
+	public void main(String[] args) {
+
+		Author Csabi = new Author("Csabi", "DoeJohn@gamil.com", 'M');
+		Book Da = new Book("Da", Csabi, 30, 2);
+		Author Sergiu = new Author("DrSergiu", "Sergiu.Jisa@gmail.com", 'M');
+		Book Energie = new Book("Energie", Sergiu, 200, 40);
+		Author Paul = new Author("Paul", "Paul@yahoo.com", 'M');
+		Book Politica = new Book("Politica", Paul, 10, 0);
+	}
+
+	public void bookCount() {
+		Book[] books = new Book[3];
+		for (int i = 0; i < 2; i++) {
+
+			books[0] = Da;
+			books[1] = Energie;
+			books[2] = Politica;
+			
+		}
+		
+		for (int i = 0; i < 2; i++) {
+			System.out.println(books[i].getName().get);
+			
+		}
+
+	}
+}

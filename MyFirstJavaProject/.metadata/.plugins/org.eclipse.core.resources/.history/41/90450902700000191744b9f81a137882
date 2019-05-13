@@ -1,0 +1,39 @@
+package com.sda.tibi.fundamentals.practiceWeekThree;
+
+public class MainSortPaul {
+
+	public static void main(String[] args) {
+	}
+
+	static int[] sortArray(int[] numbers) {
+		// return ordered array ascending
+		int currentPosition = 0;
+		while (currentPosition < numbers.length) {
+			for (int i = 0; i < numbers.length - currentPosition - 1; i++) {
+				if (numbers[i] > numbers[i + 1]) {
+					int temp = numbers[i];
+					numbers[i] = numbers[i + 1];
+					numbers[i + 1] = temp;
+				}
+			}
+			currentPosition++;
+		}
+		return numbers;
+	}
+
+	static int[] sortArrayUsingFor(int[] numbers) {
+		// return ordered array ascending
+
+		for (int j = 0; j < numbers.length; j++) {
+			for (int i = 0; i < numbers.length - j - 1; i++) {
+				if (numbers[i] > numbers[i + 1]) {
+					int temp = numbers[i];
+					numbers[i] = numbers[i + 1];
+					numbers[i + 1] = temp;
+				}
+			}
+		}
+		return numbers;
+	}
+
+}

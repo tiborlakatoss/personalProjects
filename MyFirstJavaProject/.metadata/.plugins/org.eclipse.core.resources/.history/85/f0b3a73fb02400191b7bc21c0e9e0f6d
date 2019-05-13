@@ -1,0 +1,13 @@
+package SchoolPractice;
+
+public class SchoolPracticeMain {
+
+	public static void main(String[] args) {
+
+		Person newStudent = new Person("Tibi", "centru");
+		Student Tibi = new Student("programming", 2012, 5000);
+		Staff teacher = new Staff("Poli", 3000);
+
+	}
+
+}

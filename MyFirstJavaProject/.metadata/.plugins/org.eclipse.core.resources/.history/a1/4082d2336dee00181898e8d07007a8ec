@@ -1,0 +1,33 @@
+
+public class primeNumber {
+
+	public static void main(String[] args) {
+		
+		
+		int prime (22,11,2415,67,231,11,3,99);
+		int n=0;
+		int p=0;
+		int i=0;
+		int m=3;
+		
+		i=m/2;
+		if(m==0||m==1);{
+			System.out.println("is not a prime number");
+			
+		} else if {
+			
+			if(i=2;i<=m;i++)
+				
+				if(n%i==0);
+			{
+					System.out.println("is not a prime number");
+					
+					break;
+				}
+			
+		}
+		
+
+	}
+
+}

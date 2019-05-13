@@ -1,0 +1,19 @@
+package com.sda.OnlineRadio;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int numberOfSongs = scanner.nextInt();
+
+		for (int i = 0; i = numberOfSongs; i++) {
+
+			String[] songs = new String[i];
+			songs[i] = scanner.nextInt();
+		}
+
+	}
+
+}

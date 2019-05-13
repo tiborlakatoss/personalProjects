@@ -1,0 +1,30 @@
+package dataStructuresAndAlgorithms;
+
+public class array {
+
+	public static void main(String[] args) {
+
+		int num = 88;
+		boolean flag = false;
+		int counter = 0;
+		for (int i = 2; i <= num / 2; ++i) {
+			counter++;
+			// condition for nonprime number
+			if (num % i == 0) {
+
+				flag = true;
+
+			}
+
+		}
+
+		if (!flag) {
+			System.out.println(num + " is a prime number.");
+
+		} else {
+			System.out.println(num + " is not a prime number.");
+		}
+		System.out.println(counter);
+	}
+
+}

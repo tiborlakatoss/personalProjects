@@ -1,0 +1,18 @@
+package inheritanceExample;
+
+public class Lion extends Animal {
+
+	private int nrDinti;
+
+	public int getNrDinti() {
+		return nrDinti;
+	}
+
+	public void setNrDinti(int nrDinti) {
+		this.nrDinti = nrDinti;
+	}
+	
+	
+	public int 
+
+}

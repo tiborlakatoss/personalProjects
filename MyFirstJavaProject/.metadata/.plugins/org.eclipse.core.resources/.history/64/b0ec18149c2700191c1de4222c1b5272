@@ -1,0 +1,8 @@
+package com.sda.Main;
+
+public class AllPropertyInfo {
+
+	public AllPropertyInfo() {
+
+	}
+}

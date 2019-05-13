@@ -1,0 +1,16 @@
+package com.sda.Model;
+
+public class AlphabetSorter {
+
+public	AlphabetSorter( ) {
+	
+	
+	SortedSet<String> sortedNames = new TreeSet<>();
+	 sortedNames.add("");
+	    sortedNames.add("");
+	    sortedNames.add("");
+	    sortedNames.add("");
+}
+	
+	
+}

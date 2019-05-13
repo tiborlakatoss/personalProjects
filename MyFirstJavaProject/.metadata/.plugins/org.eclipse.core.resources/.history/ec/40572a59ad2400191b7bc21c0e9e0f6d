@@ -1,0 +1,14 @@
+package SchoolPractice;
+
+public class SchoolPracticeMain {
+
+	public static void main(String[] args) {
+
+		Student Tibi = new Student(program, year, fee)
+		
+
+		
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package SchoolPractice;
+
+public class Staff extends Person {
+	private String school;
+	private Double pay;
+
+	public Staff() {
+	}
+
+	@Override
+	public String toString() {
+		return "Staff [school=" + school + ", pay=" + pay + "]";
+	}
+
+}

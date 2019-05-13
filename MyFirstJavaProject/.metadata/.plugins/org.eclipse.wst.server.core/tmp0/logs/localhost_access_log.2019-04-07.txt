@@ -1,0 +1,9 @@
+127.0.0.1 - - [07/Apr/2019:10:22:55 +0300] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [07/Apr/2019:10:32:03 +0300] "GET /firstWebApplication HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [07/Apr/2019:10:32:04 +0300] "GET /firstWebApplication/ HTTP/1.1" 200 101
+0:0:0:0:0:0:0:1 - - [07/Apr/2019:10:32:04 +0300] "GET /favicon.ico HTTP/1.1" 404 1085
+192.168.100.53 - - [07/Apr/2019:10:33:49 +0300] "GET /firstWebApplication/ HTTP/1.1" 200 68
+192.168.100.53 - - [07/Apr/2019:10:33:49 +0300] "GET /favicon.ico HTTP/1.1" 404 1085
+192.168.100.47 - - [07/Apr/2019:10:34:02 +0300] "GET /firstWebApplication/ HTTP/1.1" 200 68
+192.168.100.47 - - [07/Apr/2019:10:34:02 +0300] "GET /favicon.ico HTTP/1.1" 404 1085
+192.168.100.53 - - [07/Apr/2019:10:37:58 +0300] "GET /myFirstWebApplication/ HTTP/1.1" 404 1100

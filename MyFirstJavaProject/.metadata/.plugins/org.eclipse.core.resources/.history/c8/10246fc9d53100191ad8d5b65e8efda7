@@ -1,0 +1,11 @@
+package com.sda.OnlineRadio;
+
+import java.util.Scanner;
+
+public class Scan {
+
+	Scanner newSong = new Scanner(System.in);
+	int numberOfSongs = 0;
+	int numberOfSongsToBeAdded = 0;
+
+}

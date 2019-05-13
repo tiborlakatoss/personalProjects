@@ -1,0 +1,63 @@
+package dataStructuresAndAlgorithms;
+
+public class MainRecursion {
+
+	public static void main(String[] args) {
+
+//		printNumbers();
+//		fibonacciIterative();
+//		printNumberRecursive(0);
+		fibonacciRecursive(6);
+		int finalFibonacci = fibonacciRecursive(8);
+		System.out.println(finalFibonacci);
+	}
+
+	static void printNumberRecursive(int number) {
+		System.out.println(number++);
+		if (number >= 10) {
+			System.out.println(number);
+
+		} else {
+			printNumberRecursive(number);
+
+		}
+	}
+
+	static int fibonacciRecursive(int number) {
+//		System.out.println(number);
+		if (number <= 1) {
+			return number;
+		}
+
+		int value = fibonacciRecursive(number - 2) + fibonacciRecursive(number - 1);
+		System.out.println(value);
+		return value;
+	}
+
+	static void printNumbers() {
+
+		int i;
+
+		for (i = 0; i <= 10; i++) {
+			System.out.print(i + " ");
+		}
+
+	}
+
+	static void fibonacciIterative() {
+
+		int nextNumber = 0;
+		int firstNUmber = 0;
+		int secondNumber = 1;
+		int n = 13;
+		System.out.println(firstNUmber);
+		System.out.println(secondNumber);
+		for (int i = 1; i < n; i++) {
+			nextNumber = firstNUmber + secondNumber;
+			firstNUmber = secondNumber;
+			secondNumber = nextNumber;
+			System.out.println(nextNumber);
+
+		}
+	}
+}

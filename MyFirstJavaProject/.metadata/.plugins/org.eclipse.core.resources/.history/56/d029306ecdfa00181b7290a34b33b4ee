@@ -1,0 +1,22 @@
+package com.sda.tibi.fundamentals.practiceWeekTwo;
+
+public class RandomNumberHighClass {
+
+	public static void main(String[] args) {
+
+ int difficultyLevel = difficultyLevelReader();
+ boolean isVlaid= validateDifficulty(difficultyLevel);
+ 
+ if (isValid) {
+	 int randomNumber
+			
+			
+			
+			
+		}
+		
+		
+		
+	}
+
+}

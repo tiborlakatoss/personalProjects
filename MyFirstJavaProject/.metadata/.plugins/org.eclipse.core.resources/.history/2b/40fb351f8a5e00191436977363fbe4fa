@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="slider.css">
+    <script type="text/javascript" src="slider.js">
+    </script>
+</head>
+<body>
+
+<button onclick="goToNextSlide()">Next slide</button> <br /> <br />
+
+<div class="slider">
+    <img id="img1" src="imgs/62584623-352-k845146.jpg">
+    <img id="img2" src="imgs/62584623-352-k845146.jpg">
+    <img id="img3" src="imgs/62584623-352-k845146.jpg">
+</div>
+
+
+
+</body>
+</html>

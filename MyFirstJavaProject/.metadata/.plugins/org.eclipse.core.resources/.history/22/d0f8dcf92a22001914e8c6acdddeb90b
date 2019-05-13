@@ -1,0 +1,14 @@
+package authorAndBook;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Author bookWriter = new Author("John Doe", "DoeJohngamilcom", 'M');
+		Book johomoho = new Book("bojo", JohnDoe, 50, 20);
+		{
+			System.out.println(johomoho);
+		}
+
+	}
+}

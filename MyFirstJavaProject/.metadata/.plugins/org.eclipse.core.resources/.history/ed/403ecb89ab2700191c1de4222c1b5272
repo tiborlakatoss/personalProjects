@@ -1,0 +1,46 @@
+package com.sda.Model;
+
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
+
+public class ReadFile {
+
+	public static String Input() {
+		Scanner reader = new Scanner(System.in);
+		System.out.print("Please input file directory: ");
+		String input = reader.nextLine();
+
+		return input;
+
+	}
+
+	public static List<String> readFileInList(String fileName) {
+
+		List<String> lines = Collections.emptyList();
+
+		try {
+			lines = Files.readAllLines(Paths.get(fileName), StandardCharsets.UTF_8);
+		}
+
+		catch (IOException e) {
+
+			System.out.println("file error");
+			e.printStackTrace();
+		}
+		return lines;
+	}
+
+	public static void printData() {
+
+		List<String> readData = readFileInList(
+				"C:\\Users\\laptop\\Dropbox\\Eclipse PC\\ECLIPSE projects2\\realEstate\\src\\main\\resources\\listings.txt");
+
+		System.out.println(readData);
+	}
+
+}

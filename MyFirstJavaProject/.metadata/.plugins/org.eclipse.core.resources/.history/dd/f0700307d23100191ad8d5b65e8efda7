@@ -1,0 +1,8 @@
+package com.sda.OnlineRadio;
+
+public class Scanner {
+
+	Scan newSong = new Scan(System.in);
+	
+	
+}

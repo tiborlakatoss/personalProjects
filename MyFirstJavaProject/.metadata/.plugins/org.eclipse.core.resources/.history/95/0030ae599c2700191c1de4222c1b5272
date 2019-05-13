@@ -1,0 +1,8 @@
+package com.sda.Model;
+
+public class AllPropertyInfo {
+
+	public AllPropertyInfo() {
+
+	}
+}

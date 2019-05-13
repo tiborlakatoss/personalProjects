@@ -1,0 +1,17 @@
+package com.sda.tibi.fundamentals.practiceWeekTwo;
+
+public class ArrayExercise {
+
+	public static void main(String[] args) {
+//		Write a program that reads numbers and adds them into an array until a negative number is inserted. \
+//		Build another array that has the sum of the element and neighbours for each element from the array. 
+//		If there is no neighbor, consider 0 value on the missing position.
+//		Example:
+//		Input array: 1 2 3 4 5
+//		Sum of Neighbours array: 3 6 9 12 9
+
+		int arrays[] = { 1, 2, 3, 4, 5 };
+
+	}
+
+}

@@ -1,0 +1,9 @@
+var currentSlide = 1;
+
+function goToNextSlide() {
+	document.getElementById('img1').style.visibility = 'hidden';
+	document.getElementById('img2').style.visibility = 'hidden';
+	document.getElementById('img3').style.visibility = 'hidden';
+
+	document.getElementById('img' + currentSlide).style.visibility = 'visible';
+}

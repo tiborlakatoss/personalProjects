@@ -1,0 +1,13 @@
+import java.util.Arrays;
+
+public class exercitiuZece {
+
+	public static void main(String[] args) {
+
+		int maxim[] = { 11, 55, 84, 32, 67, 99, 245 };
+
+		Arrays.sort(maxim);
+		System.out.print(maxim);
+	}
+
+}

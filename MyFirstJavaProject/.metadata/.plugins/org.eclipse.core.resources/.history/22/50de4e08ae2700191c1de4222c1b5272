@@ -1,0 +1,17 @@
+package com.sda.Model;
+
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class AlphabetSorter extends AllPropertyInfo {
+
+	public AlphabetSorter() {
+
+		SortedSet<PropertyType> sortedNames = new TreeSet<>();
+		sortedNames.add("");
+		sortedNames.add("");
+		sortedNames.add("");
+		sortedNames.add("");
+	}
+
+}

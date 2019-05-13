@@ -1,0 +1,11 @@
+package SchoolPractice;
+
+public class SchoolPracticeMain {
+
+	public static void main(String[] args) {
+
+		Person Tibi = new Person(Tibi, "centru");
+
+	}
+
+}

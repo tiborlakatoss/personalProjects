@@ -1,0 +1,16 @@
+127.0.0.1 - - [11/May/2019:12:03:13 +0300] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [11/May/2019:12:03:15 +0300] "GET /sdaServletApp/servlet/com.sda.servlet.RegionList HTTP/1.1" 404 1130
+0:0:0:0:0:0:0:1 - - [11/May/2019:12:03:28 +0300] "GET /sdaServletApp/servlet/com.sda.servlet.RegionList HTTP/1.1" 404 1130
+0:0:0:0:0:0:0:1 - - [11/May/2019:12:03:28 +0300] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [11/May/2019:12:03:49 +0300] "GET /sdaServletApp/servlet HTTP/1.1" 404 1099
+0:0:0:0:0:0:0:1 - - [11/May/2019:12:03:57 +0300] "GET /sdaServletApp/region HTTP/1.1" 404 1098
+0:0:0:0:0:0:0:1 - - [11/May/2019:12:04:06 +0300] "GET /sdaServletApp/RegionList HTTP/1.1" 404 1102
+0:0:0:0:0:0:0:1 - - [11/May/2019:12:04:10 +0300] "GET /sdaServletApp/regionList HTTP/1.1" 500 5794
+0:0:0:0:0:0:0:1 - - [11/May/2019:12:05:15 +0300] "GET /sdaServletApp/regionList HTTP/1.1" 404 1047
+127.0.0.1 - - [11/May/2019:12:05:40 +0300] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [11/May/2019:12:06:07 +0300] "GET /sdaServletApp/servlet/com.sda.servlet.RegionList HTTP/1.1" 404 1130
+0:0:0:0:0:0:0:1 - - [11/May/2019:12:06:11 +0300] "GET /sdaServletApp/servlet/RegionList HTTP/1.1" 404 1114
+0:0:0:0:0:0:0:1 - - [11/May/2019:12:06:20 +0300] "GET /sdaServletApp/RegionList HTTP/1.1" 404 1102
+0:0:0:0:0:0:0:1 - - [11/May/2019:12:06:26 +0300] "GET /sdaServletApp/RegionList HTTP/1.1" 404 1102
+0:0:0:0:0:0:0:1 - - [11/May/2019:12:06:32 +0300] "GET /sdaServletApp/regionList HTTP/1.1" 500 5794
+0:0:0:0:0:0:0:1 - - [11/May/2019:12:07:17 +0300] "GET /sdaServletApp/regionList HTTP/1.1" 404 1047

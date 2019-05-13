@@ -1,0 +1,25 @@
+package authorAndBook;
+
+public class Book {
+	private String name;
+	private Author author;
+	private double price;
+	private int qty = 0;
+
+	public Book(String name, Author author, double price) {
+		super();
+		this.name = name;
+		this.author = author;
+		this.price = price;
+
+	}
+
+	public Book(String name, Author author, double price, int qty) {
+		super();
+		this.name = name;
+		this.author = author;
+		this.price = price;
+		this.qty = qty;
+	}
+
+}

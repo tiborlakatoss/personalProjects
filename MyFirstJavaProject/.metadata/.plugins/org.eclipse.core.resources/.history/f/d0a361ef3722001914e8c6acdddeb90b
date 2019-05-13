@@ -1,0 +1,30 @@
+package authorAndBook;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		List<Author> Csabi = new Author("Csabi", "DoeJohn@gamil.com", 'M');
+		Book Da = new Book("Da", Csabi, 30, 2);
+		List<Author> Sergiu = new Author("DrSergiu", "Sergiu.Jisa@gmail.com", 'M');
+		Book Energie = new Book("Energie", Sergiu, 200, 40);
+		List<Authors> Paul = new Author("Paul", "Paul@yahoo.com", 'M');
+		Book Politica = new Book("Politica", Paul, 10, 0);
+
+		List<Book> bookList = new ArrayList<>();
+		bookList.add(Da);
+		bookList.add(Energie);
+		bookList.add(Politica);
+		for (Book carti : bookList) {
+			System.out.println(carti.getAuthor().getEmail());
+		}
+
+//		Book[] books = { Da, Energie, Politica };
+//		for (Book carti : books) {
+//			System.out.println(carti.getAuthor().getEmail());
+		// }
+	}
+}

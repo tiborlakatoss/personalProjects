@@ -1,0 +1,13 @@
+package SchoolPractice;
+
+public class SchoolPracticeMain {
+
+	public static void main(String[] args) {
+
+		Student Tibi = new Student("Programming", 2015, 6000);
+
+		Tibi.setAdress("Centru");
+
+	}
+
+}

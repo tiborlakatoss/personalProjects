@@ -1,0 +1,13 @@
+package authorAndBook;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Author Csabi = new Author("John Doe", "DoeJohn@gamil.com", 'M');
+		Book johomoho = new Book("johomoho", Csabi, 30, 2);
+		Author Sergiu = new Author("DrSergiu", "Sergiu.Jisa@gmail.com", 'M');
+		Book Energie = new Book(Energie, Sergiu, 200, 40);
+
+	}
+}

@@ -1,0 +1,25 @@
+package authorAndBook;
+
+public class author {
+	private String name;
+	private String email;
+	private char gender;
+	int qty = 0;
+
+	public author(String name, String email, char gender, int qty) {
+		super();
+		this.name = name;
+		this.email = email;
+		this.gender = gender;
+		this.qty = qty;
+
+	}
+
+	public author(String name, String email, char gender) {
+		super();
+		this.name = name;
+		this.email = email;
+		this.gender = gender;
+	}
+
+}

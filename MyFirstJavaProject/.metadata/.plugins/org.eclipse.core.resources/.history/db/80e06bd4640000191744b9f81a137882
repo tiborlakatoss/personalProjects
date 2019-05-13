@@ -1,0 +1,13 @@
+package com.sda.tibi.fundamentals.practiceWeekThree;
+
+public class SelectionSort {
+
+	public static void main(String[] args) {
+
+		MainSort.readNumbers();
+
+		MainSort.printArray();
+
+	}
+
+}

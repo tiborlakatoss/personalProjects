@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>calculator</title>
+
+<script type="text/javascript" src="calculator.js"></script>
+
+
+
+</head>
+<body>
+
+
+
+	<table border="1" style="width: 40%">
+		<thead>
+			<tr>
+				<th colspan="3">A <input type="number" id="firstParam"
+					style="width: 60px;"> Symbol <input type="text" id="symbol"
+					disabled style="width: 60px;"> B <input type="number"
+					id="secondParam" style="width: 60px;"> result<input
+					type="text" id="result" disabled style="width: 60px;">
+			</tr>
+		</thead>
+		<tr>
+			<td><img id="plus" onclick="setOperation('+')"
+				src="https://img.freepik.com/free-photo/overhead-view-first-aid-kit-with-medical-sign-isolated-white-backdrop_23-2147874907.jpg?size=338&ext=jpg"
+				height="40" width="40"></td>
+
+			<td><img id="minus" onclick="setOperation('-')"
+				src="https://previews.123rf.com/images/subjob/subjob1711/subjob171100049/90140285-icon-graphic-pattern-minus-sign-black-and-white-pictogram-for-web-design-vector-flat-illustrations-l.jpg"
+				height="40" width="40"></td>
+
+			<td><img id="clear" onclick="clearResult()"
+				src="https://designcrafts.online/wp-content/uploads/2018/02/25-C.jpg"
+				height="40" width="40"></td>
+		</tr>
+
+		<tr>
+			<td><img id="multiple" onclick="setOperation('*')"
+				src="https://i.pinimg.com/originals/c5/1c/da/c51cda89a29626ea7b655bd7f703218c.png"
+				height="40" width="40"></td>
+
+			<td><img id="devide" onclick="setOperation('/')"
+				src="https://media.istockphoto.com/vectors/divide-icon-vector-sign-and-symbol-isolated-on-white-background-logo-vector-id1001133406"
+				height="40" width="40"></td>
+			<td></td>
+		</tr>
+
+		<tr>
+			<td><img id="topower" onclick="setOperation('^')"
+				src="http://zonalandeducation.com/mmts/expressions/twoToTheThird.gif"
+				height="40" width="40"></td>
+
+			<td></td>
+			<td><img id="check" onclick="checkResult()"
+				src="https://www.logolynx.com/images/logolynx/7c/7c0b4a8d0b25d4e203be055cd61fb2c8.gif"
+				height="40" width="40"></td>
+
+		</tr>
+	</table>
+</body>
+</html>

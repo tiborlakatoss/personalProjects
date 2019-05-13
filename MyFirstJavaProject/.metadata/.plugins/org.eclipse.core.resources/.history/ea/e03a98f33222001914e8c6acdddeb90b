@@ -1,0 +1,19 @@
+package authorAndBook;
+
+public class Main {
+
+	public void main(String[] args) {
+
+		Author Csabi = new Author("Csabi", "DoeJohn@gamil.com", 'M');
+		Book Da = new Book("Da", Csabi, 30, 2);
+		Author Sergiu = new Author("DrSergiu", "Sergiu.Jisa@gmail.com", 'M');
+		Book Energie = new Book("Energie", Sergiu, 200, 40);
+		Author Paul = new Author("Paul", "Paul@yahoo.com", 'M');
+		Book Politica = new Book("Politica", Paul, 10, 0);
+
+		Book[] books = { Da, Energie, Politica };
+		for (Book book : books) {
+			System.out.println(book.getAuthor().getEmail());
+		}
+	}
+}

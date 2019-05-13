@@ -1,0 +1,9 @@
+package authorAndBook;
+
+public class authorAndBook(String name) {
+private String name;
+private String email;
+private char gender;
+int qty =0;
+
+}

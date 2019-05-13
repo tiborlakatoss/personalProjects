@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;dataStructures.ticTacToe.java&apos; to &apos;TicTacToe.java&apos;&#x0D;&#x0A;- Original project: &apos;dataStructuresAndAlgorithms&apos;&#x0D;&#x0A;- Original element: &apos;dataStructures.ticTacToe.java&apos;&#x0D;&#x0A;- Renamed element: &apos;dataStructures.TicTacToe.java&apos;" description="Rename compilation unit &apos;ticTacToe.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;dataStructures{ticTacToe.java" name="TicTacToe.java" references="false" stamp="1546945175185" version="1.0"/>
+</session>

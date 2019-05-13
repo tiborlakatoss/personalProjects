@@ -1,0 +1,32 @@
+package com.sda.tibi.fundamentals.practiceWeekTwo;
+
+import java.util.Scanner;
+
+public class GuessTheNumberResolve {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// Prompt for the dificulty level,and then start the game.
+
+		System.out.println("insert difficulty level(1,2 or 3):");
+
+		// ask for difficulty level imput
+
+		Scanner scanner = new Scanner(System.in);
+
+		int difficultyLevel = scanner.nextInt();
+
+		// print difficulty level tu confirm is correct
+		System.out.println("you picked difficulty level :" + difficultyLevel);
+
+		if (difficultyLevel >= 1 && difficultyLevel <= 3) {
+			System.out.println("valid");
+
+		} else {
+			System.out.println("invalid option.Please picak a number between 1 and 3 ");
+		}
+
+	}
+
+}

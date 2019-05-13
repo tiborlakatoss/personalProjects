@@ -1,0 +1,67 @@
+package org.examples.hrdatabasejdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+/**
+ * Hello world!
+ *
+ */
+public class App {
+
+	public static String DB_URL = "jdbc:mysql://localhost:3306/hrdatabase";
+
+	public static String USERNAME = "root";
+	public static String PASSWORD = "0747891421";
+	public static Connection connection;
+
+	public static void main(String[] args) throws SQLException {
+		Connection connection = DriverManager.getConnection(DB_URL, USERNAME, PASSWORD);
+		Statement statement = connection.createStatement();
+		String sql = "SELECT * from employees";
+		ResultSet result = statement.executeQuery(sql);
+
+		while (result.next()) {
+			int id = result.getInt("employee_id");
+			String firstName = result.getString("first_name");
+			String lastName = result.getString("last_name");
+			String phoneNo = result.getString("PHONE_NUMBER");
+			String email = result.getString("EMAIL");
+//			System.out.print(" ID: " + id);
+//			System.out.print(" First name: " + firstName + ".");
+//			System.out.print(" Last name: " + lastName + ".");
+//			System.out.print(" phoneNo: " + phoneNo + ".");
+//			System.out.print(" email: " + email + ".");
+//			System.out.println();
+
+			// print all employees FRIST NAME LAST NAME SALARY JOB TITLE
+
+			String sql1 = " Select first_name , last_name , salary , job_title from employees inner join jobs on jobs.JOB_ID = employees.JOB_ID";
+			ResultSet result1 = statement.executeQuery(sql1);
+
+			while (result1.next()) {
+				String firstName1 = result1.getString("first_name");
+				String lastName1 = result1.getString("last_name");
+				double salary = result1.getInt("salary");
+//				String jobTitle = result1.getString("job_title");
+//				System.out.print(" First name: " + firstName1 + ".");
+//				System.out.print(" Last name: " + lastName1 + ".");
+//				System.out.print(" salary: " + salary + ".");
+//				System.out.print(" job title: " + jobTitle + ".");
+//				System.out.println();
+
+			}
+
+		}
+
+	}
+
+	public static void updateEmployeeSalary() throws SQLException {
+		String sql = "UPDATE employees SET salary=1500 where employee_id=103";
+		Statement statement = connection.createStatement();
+		statement.executeUpdate(sql);
+	}
+}

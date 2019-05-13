@@ -1,0 +1,25 @@
+package com.zoo.garden;
+
+public class Dog {
+
+	String name;
+	int nrOfPuppies;
+
+	public static void main(String args[]) {
+
+		Dog father = new Dog();
+
+		father.name = "Max";
+
+		father.nrOfPuppies = 1;
+
+		System.out.println(father.name + " " + father.nrOfPuppies);
+
+		Dog mother = new Dog();
+		mother.name = "Linda";
+		mother.nrOfPuppies = 26;
+
+		System.out.println(mother.name + " " + mother.nrOfPuppies);
+		
+	}
+}

@@ -1,0 +1,19 @@
+package SchoolPractice;
+
+public class SchoolPracticeMain {
+
+	public static void main(String[] args) {
+
+		Student Tibi = new Student("programming", 2012, 5000);
+
+		Tibi.getAdress();
+		Tibi.setAdress("centru");
+		Tibi.getYear();
+		Tibi.setYear(2012);
+		Tibi.getFee();
+		Tibi.setFee(6000);
+
+		System.out.println(Tibi.getName(), Tibi.getAdress(), Tibi.getProgram(), Tibi.getYear(), Tibi.getFee());
+	}
+
+}

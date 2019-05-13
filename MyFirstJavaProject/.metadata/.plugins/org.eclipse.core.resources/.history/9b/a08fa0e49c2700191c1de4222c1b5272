@@ -1,0 +1,21 @@
+package com.sda.Model;
+
+public class AllPropertyInfo {
+
+	private int propertyId;
+
+	private String propertyType;
+
+	private double propertyPrice;
+
+	private int agentId;
+
+	public AllPropertyInfo(int propertyId, String propertyType, double propertyPrice, int agentId) {
+
+		this.propertyId = propertyId;
+		this.propertyType = propertyType;
+		this.propertyPrice = propertyPrice;
+		this.agentId = agentId;
+
+	}
+}

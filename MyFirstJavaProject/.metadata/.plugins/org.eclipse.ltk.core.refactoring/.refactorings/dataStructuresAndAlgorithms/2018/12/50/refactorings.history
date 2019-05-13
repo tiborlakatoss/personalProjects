@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;dataStructuresAndAlgorithms.MainRecurssion&apos; to &apos;MainRecursion&apos;&#x0D;&#x0A;- Original project: &apos;dataStructuresAndAlgorithms&apos;&#x0D;&#x0A;- Original element: &apos;dataStructuresAndAlgorithms.MainRecurssion&apos;&#x0D;&#x0A;- Renamed element: &apos;dataStructuresAndAlgorithms.MainRecursion&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MainRecurssion&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;dataStructuresAndAlgorithms{MainRecurssion.java[MainRecurssion" matchStrategy="1" name="MainRecursion" qualified="false" references="true" similarDeclarations="false" stamp="1544858260639" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,10 @@
+package com.sda.Model;
+
+public class AllPropertyInfo {
+
+	private int propertyId;
+
+	private public AllPropertyInfo() {
+
+	}
+}

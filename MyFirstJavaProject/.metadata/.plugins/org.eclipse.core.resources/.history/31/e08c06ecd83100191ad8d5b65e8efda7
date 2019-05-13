@@ -1,0 +1,15 @@
+package com.sda.OnlineRadio;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		for (int i = 0; i = numberOfSongs; i++) {
+
+			String[] songs = new String[i];
+			song[i] = scanner.nextLine();
+		}
+
+	}
+
+}

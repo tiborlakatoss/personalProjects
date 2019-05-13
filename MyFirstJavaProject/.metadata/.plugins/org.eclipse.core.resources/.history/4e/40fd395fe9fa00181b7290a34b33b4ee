@@ -1,0 +1,48 @@
+package com.sda.tibi.fundamentals.practiceWeekTwo;
+
+import java.util.Scanner;
+
+public class MatricePractice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//		Write a program which takes 2 digits, X,Y as input and generates a 2-dimensional array. 
+//		The element value in the i-th row and j-th column of the array should be i*j.
+//		Example
+//		Suppose the following inputs are given to the program:
+//		3,5
+//		Then, the output of the program should be:
+//		[0, 0, 0, 0, 0]
+//		[0, 1, 2, 3, 4]
+//		[0, 2, 4, 6, 8]
+		Scanner scanner = new Scanner(System.in);
+		int i;
+		int j;
+		int firstNumber = 0;
+		int secondNumber = 0;
+
+		int[][] Array = new int[firstNumber][secondNumber];
+
+		System.out.println("first dimention is: ");
+		firstNumber = scanner.nextInt();
+		System.out.println("your second dimention is: ");
+		secondNumber = scanner.nextInt();
+
+		for (i = 0; i <= firstNumber - 1; i++) {
+
+			for (j = 0; j <= secondNumber - 1; j++)
+				;
+			Array[i][j] = i * j;
+		}
+		for (i = 0; i <= firstNumber - 1; i++) {
+
+			for (j = 0; j <= secondNumber - 1; j++)
+				;
+			Array[i][j] = i * j;
+			System.out.print(Array[i][j] + " ");
+			System.out.println();
+
+		}
+	}
+}

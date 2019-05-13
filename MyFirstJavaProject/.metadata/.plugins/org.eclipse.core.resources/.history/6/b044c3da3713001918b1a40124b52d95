@@ -1,0 +1,55 @@
+package com.sda.tibi.fundamentals.moreHomework;
+
+import java.util.Scanner;
+
+public class moneyCount {
+
+	public static void main(String[] args) {
+//		1.
+
+//
+//
+//		2.
+//		The user enters a price and then the amount of money given. 
+//		The program will figure out the change and the number of bills and coins to return. 
+//			Return the change in as few bills/coins as possible.
+//		Note: Consider the bills/coins of Romaina (500,200,100,50,10,5,1 bills and 50,10,5,1 coins)
+//		Example Input:
+//		Price: 14.33
+//		Money amount: 100
+//		Output :
+//		Total Change: 85.67 Lei 
+//		1 x 50 Lei
+//		3 x 10 Lei
+//		1 x 5 Lei
+//		1 x 50 Bani
+//		1 x 10 Bani
+//		1 x 5 Bani
+//		2 x 1 Bani
+//		Write a program that computes the net amount of a bank account based a transaction log from console input. 
+//	The transaction log format is shown as following:
+//		D 200
+//		W 100
+//		¡
+//		D means deposit while W means withdrawal. 'i' meaning balance information
+//		Suppose the following input is supplied to the program:
+//		D 300
+//		D 300
+//		W 200
+//		D 100
+//		¡
+//		Then, the output should be:
+//		500
+//		Extra 1: validate account always has enough money. don't allow operations of W if not enough money
+//		Extra 2: add L operation, loan, can withdraw even if it's < 0 to a limit of 10000
+		
+Scanner scanner  = new scanner(System.in);
+		
+		int dep=1000;
+		System.out.println("please insert the amount you would like to withdraw:");
+		int with=scanner.nextLine();
+		
+	
+	}
+
+}

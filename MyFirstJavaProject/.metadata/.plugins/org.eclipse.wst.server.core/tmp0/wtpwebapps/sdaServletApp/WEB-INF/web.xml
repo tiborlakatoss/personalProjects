@@ -1,0 +1,23 @@
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+
+	<servlet>
+		<servlet-name>firstServlet</servlet-name>
+		<servlet-class>com.sda.servlet.FirstServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>firstServlet</servlet-name>
+		<url-pattern>/first</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>personServlet</servlet-name>
+		<servlet-class>com.sda.servlet.PersonServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>personServlet</servlet-name>
+		<url-pattern>/getPersons</url-pattern>
+	</servlet-mapping>
+</web-app>

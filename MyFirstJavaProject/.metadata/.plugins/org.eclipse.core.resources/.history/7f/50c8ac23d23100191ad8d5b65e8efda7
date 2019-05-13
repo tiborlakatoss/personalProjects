@@ -1,0 +1,8 @@
+package com.sda.OnlineRadio;
+
+public class RadioDatabase {
+
+	Music first = new Music("ABBA", "Mamma Mia", 3, 35);
+	Music second = new Music("Nasko Mentata", "Salata", minutes, seconds)
+
+}

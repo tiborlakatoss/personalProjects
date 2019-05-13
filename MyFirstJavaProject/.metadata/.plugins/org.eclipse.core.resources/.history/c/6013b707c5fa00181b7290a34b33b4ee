@@ -1,0 +1,60 @@
+package com.sda.tibi.fundamentals.practiceWeekTwo;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class GuessTheNumberResolve {
+
+	public static void main(String[] args) {
+
+		
+		String retry = "y";
+		while (retry == "y")
+			;
+		Scanner Scanner = new Scanner(System.in);
+		System.out.println("insert difficulty level(1,2 or 3):");
+		int difficultyLevel = Scanner.nextInt();
+		System.out.println("you picked difficulty level :" + difficultyLevel);
+
+		if (difficultyLevel >= 1 && difficultyLevel <= 3) {
+			System.out.println("valid");
+
+		} else {
+			System.out.println("invalid option.Please picak a number between 1 and 3 ");
+		}
+
+		if (difficultyLevel == 1) {
+
+			System.out.println("starting level easy,pick your number:");
+			Random random = new Random();
+
+			int randomEasy = random.nextInt(10) + 1;
+			int yourGuess = 0;
+			boolean hasGuessedNUmber = false;
+			int contor = 0;
+
+			do {
+
+				System.out.print("insert your guess between 1 and 10:");
+				yourGuess = Scanner.nextInt();
+				System.out.println("your guess was: " + yourGuess);
+				contor++;
+
+				if (yourGuess < randomEasy) {
+					System.out.println("too low");
+				} else if (yourGuess > randomEasy) {
+					System.out.println("too high");
+
+				} else {
+					System.out.println("Correct!You won!");
+					hasGuessedNUmber = true;
+				}
+			} while (!hasGuessedNUmber);
+
+		}
+		System.out.println("Do you want to play again (y/n)?");
+		retry = Scanner.next();
+		System.out.println(retry);
+	}
+
+}
